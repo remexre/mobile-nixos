@@ -1,6 +1,7 @@
 { device ? null
 , configuration ? null
 , pkgs ? (import ./pkgs.nix {})
+, ...
 }@args':
 
 let
